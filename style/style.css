@@ -55,6 +55,9 @@ tr {
   background-color: pink;
   color: black;
 }
+.sub{
+  background-color: rgba(0, 0, 0, 0.704);
+}
 /* h1 {
   color: rgb(79, 12, 110);
 } */
