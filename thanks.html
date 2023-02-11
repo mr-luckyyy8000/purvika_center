@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Thanks For Downloading</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <div class="thanks-wrap">
+            <div class="checkmark">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 161.2 161.2">
+                <circle
+                  class="path"
+                  fill="none"
+                  stroke="#98fb98"
+                  stroke-width="4"
+                  stroke-miterlimit="10"
+                  cx="80.6"
+                  cy="80.6"
+                  r="62.1"
+                />
+                <path
+                  class="path"
+                  fill="none"
+                  stroke="#98fb98"
+                  stroke-width="6"
+                  stroke-linecap="round"
+                  stroke-miterlimit="10"
+                  d="M113 52.8l-38.9 55.6-25.9-22"
+                />
+                <circle
+                  class="spin"
+                  fill="none"
+                  stroke="#98fb98"
+                  stroke-width="4"
+                  stroke-miterlimit="10"
+                  stroke-dasharray="12.2175,12.2175"
+                  cx="80.6"
+                  cy="80.6"
+                  r="73.9"
+                />
+              </svg>
+            </div>
+            <h2>Thanks For Downloading</h2>
+          </div>
+          <h6>Apk will be automatically downloaded shortlly</h6>
+          <h6>
+            If not start than
+            <a
+              href="https://drive.google.com/uc?export=download&id=1Oddzyyk376a3GuHvYd-s_HRWx3R2yfkf"
+              >Click Here</a
+            >
+          </h6>
+        </div>
+      </div>
+    </div>
+    <footer>Made By Mr.luckyyy</footer>
+  </body>
+  <style>
+    body {
+      background-color: black;
+      color: #ffffff;
+    }
+    thanks-wrap {
+      background: #ffffff;
+      padding: 30px;
+      margin: 0 auto 10px;
+      display: none;
+      max-width: 320px;
+    }
+
+    .checkmark {
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .path {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 0;
+      -webkit-animation: dash 2s ease-in-out;
+      animation: dash 2s ease-in-out;
+    }
+
+    .spin {
+      -webkit-animation: spin 2s;
+      animation: spin 2s;
+      transform-origin: 50% 50%;
+    }
+    footer {
+      text-align: center;
+      background-color: purple;
+      margin: 20px;
+      margin-top: 200px;
+      border: 20px solid purple;
+      border-radius: 20px;
+    }
+
+    h2 {
+      -webkit-animation: text 1s;
+      animation: text 1s;
+    }
+
+    @-webkit-keyframes dash {
+      0% {
+        stroke-dashoffset: 1000;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes dash {
+      0% {
+        stroke-dashoffset: 1000;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @-webkit-keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    @-webkit-keyframes text {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes text {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+  <script>
+    setTimeout(function () {
+      window.location.href =
+        "https://drive.google.com/uc?export=download&id=1Oddzyyk376a3GuHvYd-s_HRWx3R2yfkf";
+    }, 2000);
+  </script>
+</html>
